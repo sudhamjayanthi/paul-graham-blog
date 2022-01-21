@@ -1,0 +1,62 @@
+@import url("https://rsms.me/inter/inter.css");
+
+* {
+  font-family: Inter, sans-serif;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+    html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+.App{
+margin: 10px 30px;
+}
+
+.Home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.Home h1{
+  margin-bottom: 40px;
+}
+
+.Post h1{
+  margin-bottom: 40px;
+}
+
+.Post font {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  color: black;
+  text-decoration: underline;
+  border-radius: 5px;
+  margin-top: 30px 10px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(2, 62, 97);
+}
+
+h1 {
+  color: #9b4650;
+}
