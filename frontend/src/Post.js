@@ -24,7 +24,7 @@ export default function Post({ id }) {
     <div className="Post">
       <h1> {post.name || "Loading..."}</h1>
       <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(post.body) }}></div>
-      <a className="btn" href={post.url}>visit original</a>
+      <a className="btn" href={post.url}>visit original</a>{' '}
       <a className="btn" href="/">home</a>
     </div>
   );
